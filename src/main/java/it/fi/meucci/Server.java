@@ -37,7 +37,7 @@ public class Server {
         
         outClient.writeBytes("--CALCOLATRICE--\n");
         outClient.writeBytes("Inserire l'operazione matematica da compiere per la sua interezza\n");
-        outClient.writeBytes("Esempio: scrivere '5 + 5' correttamente diviso dagli spazi\n");
+        outClient.writeBytes("Esempio: scrivere '5 + 5' correttamente diviso dagli spazi. Se verra' inserito qualcosa dopo un'operazione corretta verra' ignorata\n");
 
 
         for(;;){
